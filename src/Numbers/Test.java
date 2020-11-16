@@ -5,10 +5,20 @@
  */
 package Numbers;
 
+
 /**
  *
  * @author Samuel
  */
-public class Test {
+public abstract class Test {
+ 
     
+    
+    public static void main(String[] args) {
+        
+        Number number = new Number();
+        
+        System.out.println("È par? "+number.isPar(3));
+        System.out.println("È impar? "+number.isImpar(3));
+    }
 }

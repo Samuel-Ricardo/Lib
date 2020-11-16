@@ -11,7 +11,7 @@ package Numbers;
  */
 public class Number {
     
-    public boolean isPar(Float number){
+    public boolean isPar(int number){
         
         if(number%2 == 0){
             
@@ -21,13 +21,13 @@ public class Number {
         }
     }
     
-    public boolean isImpar(Float number){
+    public boolean isImpar(int number){
         
         if(number%2 != 0){
             
-            return false;
-        }else{
             return true;
+        }else{
+            return false;
         }
     }
 }

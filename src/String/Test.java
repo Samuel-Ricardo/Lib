@@ -9,6 +9,6 @@ package String;
  *
  * @author Samuel
  */
-public class Test {
+public abstract class Test {
     
 }
