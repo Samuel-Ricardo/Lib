@@ -11,4 +11,13 @@ package String;
  */
 public class Vogal {
     
+    public boolean isVogal(String string){
+        
+        if("a".equals(string) || "e".equals(string) || "i".equals(string) || "o".equals(string) || "u".equals(string)){
+            
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
