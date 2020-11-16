@@ -20,5 +20,10 @@ public abstract class Test {
         
         System.out.println("È par? "+number.isPar(3));
         System.out.println("È impar? "+number.isImpar(3));
+        
+        Year year = new Year();
+        
+        System.out.println("è bissexto? "+ year.isBissexto(2024));
+        System.out.println("è bissexto? "+ year.isBissexto(2019));
     }
 }
