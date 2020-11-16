@@ -11,4 +11,14 @@ package Numbers;
  */
 public class Number {
     
+    public boolean isPar(Float number){
+        
+        if(number%2 == 0){
+            
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
 }
